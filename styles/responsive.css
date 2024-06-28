@@ -1,0 +1,110 @@
+@media screen and (max-width: 576px) {
+    .max-width {
+        width: 90%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .nav-icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img-container {
+        width: 100%;
+    }
+
+    .discount {
+        top: -150px;
+        left: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-background {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsors-img-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: end;
+        gap: 20px;
+        padding-left: 10%;
+    }
+
+    .footer p small {
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .max-width {
+        width: 90%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .nav-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img-container {
+        width: 100%;
+    }
+
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-background {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sponsors-img-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: flex-end;
+        gap: 30px;
+        padding-left: 10%;
+    }
+}
